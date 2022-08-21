@@ -1,0 +1,76 @@
+body {
+  background-color: honeydew;
+}
+
+.navContainer {
+  border: solid;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+
+.logo {
+  width: 30%;
+  height: 80px;
+}
+
+.navTab {
+  margin-top: 10px;
+}
+
+.navTab:hover {
+  margin-top: 10px;
+  color: aqua;
+}
+
+.navBtn {
+  height: 40px;
+}
+
+.picContainer {
+  border: solid;
+  height: 400px;
+  background-image: url("https://phoode.com/blog/wp-content/uploads/2019/05/steamy-steak-sear-food-photography.jpg");
+  background-size: cover;
+  border-width: 0.2px;
+}
+
+.mainTitle {
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-top: 20%;
+  text-align: center;
+}
+
+.learnBtn {
+  font-size: 24px;
+  background-color: grey;
+  color: white;
+  margin-left: 40%;
+}
+
+.hungry {
+  text-align: center;
+}
+.icon {
+  margin-left: 45%;
+}
+
+.foodContainer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.foodPic {
+  width: 80%;
+  border-radius: 22px;
+  border: solid;
+  border-width: 0.2px;
+  object-fit: cover;
+  height: 150px;
+}
+
+.foodDetails {
+  margin-left: 40px;
+  text-decoration: underline;
+}
